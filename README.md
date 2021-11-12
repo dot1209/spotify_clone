@@ -1,16 +1,17 @@
-# spotify_clone
+# Spotify Clone
+[![Tests](https://github.com/8igMac/spotify_clone/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/8igMac/spotify_clone/actions/workflows/test.yml)
 
-A new Flutter project.
+A Spotify clone made with Flutter.
 
-## Getting Started
+## Setup
+```shell
+$ flutter pub get
+```
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Contribute
+Run the following command before you submit a PR.
+```shell
+$ flutter analyze
+$ flutter format .
+$ flutter test
+```
