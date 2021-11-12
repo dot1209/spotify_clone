@@ -6,10 +6,7 @@ class SearchPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Center(
-      child: Icon(
-        Icons.search,
-        size: 150,
-      ),
+      child: Text('Search Page'),
     );
   }
 }
