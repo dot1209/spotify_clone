@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:spotify_clone/main.dart';
 
-Widget createMyApp() => const MyApp();
+Widget createSpotifyClone() => const SpotifyClone();
 
 void main() {
   group('MyApp Tests', () {
     testWidgets('Testing Bottom Navigation Bar', (tester) async {
-      await tester.pumpWidget(createMyApp());
+      await tester.pumpWidget(createSpotifyClone());
 
       await tester.tap(find.byIcon(Icons.search));
       await tester.pumpAndSettle();
